@@ -28,6 +28,7 @@
     .cart-content {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 150px;
     }
     .cart-content__cart {
         width: 734px;
@@ -39,6 +40,12 @@
         justify-content: space-evenly;
     }
     .cart-content__form {
+        flex-direction: row;
+        gap: 15px;
+        padding-top: 0;
+        padding-left: 30px;
+    }
+    .cart-content__info {
         flex-direction: row;
         gap: 15px;
     }
